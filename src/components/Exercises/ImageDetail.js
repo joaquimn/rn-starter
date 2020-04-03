@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, StyleSheet, Image } from 'react-native';
+import { View, StyleSheet, Text, Image } from 'react-native';
 
 const ImageDetail = props => {
     return (
@@ -9,7 +9,7 @@ const ImageDetail = props => {
             <Text>{props.score}</Text>
         </View>
     );
-};
+}
 
 const styles = StyleSheet.create({
 
