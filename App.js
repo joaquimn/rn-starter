@@ -9,11 +9,13 @@ import ImageScreen from './src/screens/ImageScreen';
 import CounterScreen from './src/screens/CounterScreen';
 import ColorScreen from './src/screens/ColorScreen';
 import SquareScreen from './src/screens/SquareScreen';
+import TextScreen from './src/screens/TextScreen';
 
 //exercises 
 import ExerciseOneScreen from './src/screens/Exercises/ExerciseOneScreen';
 import ExerciseTwo from './src/screens/Exercises/ExerciseTwo';
 import ExerciseThree from './src/screens/Exercises/ExerciseThree';
+import ExerciseFour from './src/screens/Exercises/ExerciseFour';
 
 
 const navigator = createStackNavigator(
@@ -22,12 +24,14 @@ const navigator = createStackNavigator(
     Components: ComponentsScreen,
     List: ListScreen,
     ImageScreen: ImageScreen,
+    Counter: CounterScreen,
+    Color: ColorScreen,
+    Square: SquareScreen,
+    TextScreen: TextScreen,
     ExerciseOne: ExerciseOneScreen,
     ExerciseTwo: ExerciseTwo,
     ExerciseThree: ExerciseThree,
-    Counter: CounterScreen,
-    Color: ColorScreen,
-    Square: SquareScreen
+    ExerciseFour: ExerciseFour
   },
   {
     initialRouteName: "Home",
