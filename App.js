@@ -10,6 +10,7 @@ import CounterScreen from './src/screens/CounterScreen';
 import ColorScreen from './src/screens/ColorScreen';
 import SquareScreen from './src/screens/SquareScreen';
 import TextScreen from './src/screens/TextScreen';
+import BoxScreen from './src/screens/BoxScreen';
 
 //exercises 
 import ExerciseOneScreen from './src/screens/Exercises/ExerciseOneScreen';
@@ -28,6 +29,7 @@ const navigator = createStackNavigator(
     Color: ColorScreen,
     Square: SquareScreen,
     TextScreen: TextScreen,
+    BoxScreen: BoxScreen,
     ExerciseOne: ExerciseOneScreen,
     ExerciseTwo: ExerciseTwo,
     ExerciseThree: ExerciseThree,
